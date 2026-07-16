@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+  position: sticky;
+  width: 100%;
+  height: 8vh;
+  background-color: aquamarine;
+  left: 0;
+  top: 0;
+}
+
+.footer{
+  width: 100%;
+  height: 15vh;
+  background-color: aquamarine;
+
+}
+
+.home{
+  background-color: brown;
+}
+
+.detail{
+  background-color: chocolate;
+}
+
+.card{
+  width: 250px;
+  height: 300px;
+  background-color: blueviolet;
+}
+.card-box{
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px 40px;
+}
